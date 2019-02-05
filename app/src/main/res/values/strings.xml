@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">RolePlayGame</string>
+    <string name="button_new_game">New Game</string>
+    <string name="text_story">You are a young knight, that was sent to the small village
+        named Goldshire by king. You should solve resident`s problems with monsters, which are
+        murdering people.</string>>
+</resources>

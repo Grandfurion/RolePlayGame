@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/fragment_inventory"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="left"
+        android:layout_marginLeft="40dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageViewHelm"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            android:layout_marginTop="8dp"
+            app:srcCompat="@drawable/helmet" />
+
+        <TextView
+            android:id="@+id/textHelm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_item_equipped" />
+
+        <ImageView
+            android:id="@+id/imageViewArmor"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="left"
+            app:srcCompat="@drawable/armor" />
+
+        <TextView
+            android:id="@+id/textArmor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_item_equipped" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_gravity="right"
+        android:layout_marginRight="40dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imageViewSword"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="8dp"
+            android:layout_marginRight="4dp"
+            app:srcCompat="@drawable/sword" />
+
+        <TextView
+            android:id="@+id/textSword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_item_equipped" />
+
+        <ImageView
+            android:id="@+id/imageViewShield"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="right"
+            android:layout_marginRight="4dp"
+            app:srcCompat="@drawable/shield" />
+
+        <TextView
+            android:id="@+id/textShield"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/no_item_equipped" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_gravity="top"
+        android:layout_marginTop="250dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/inventory_1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+
+            <ImageView
+                android:id="@+id/inventory_2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+
+            <ImageView
+                android:id="@+id/inventory_3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+            <ImageView
+                android:id="@+id/inventory_4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/inventory_5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+
+            <ImageView
+                android:id="@+id/inventory_6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+
+            <ImageView
+                android:id="@+id/inventory_7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+
+            <ImageView
+                android:id="@+id/inventory_8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                tools:srcCompat="@drawable/empty_item" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

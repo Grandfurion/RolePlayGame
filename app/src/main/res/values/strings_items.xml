@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_item_equipped">None</string>
+    <string name="item_iron_armor_name">Iron Armor</string>
+    <string name="item_iron_sword_name">Iron Sword</string>
+    <string name="item_iron_helm_name">Iron Helm</string>
+    <string name="item_iron_shield_name">Iron Shield</string>
+</resources>
